@@ -3,7 +3,6 @@ import { createPublicClient, http, createWalletClient } from "viem";
 import { avalancheFuji } from "viem/chains";
 import { SIMPLE_STORAGE_ABI } from "./simple-storage.abi";
 import { GetEventsDto } from "./dto/get-events.dto";
-import { SetValueDto } from "./dto/set-value.dto";
 
 @Injectable()
 export class BlockchainService {

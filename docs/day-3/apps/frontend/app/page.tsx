@@ -10,7 +10,7 @@ import {
 } from 'wagmi';
 import { injected } from 'wagmi/connectors';
 
-const CONTRACT_ADDRESS = '0xf400872d6ed108b75f2a710b68f6cf447b6cbdaf'; // ganti sesuai deploy Day 2
+const CONTRACT_ADDRESS = '0x15C6c3ce81978DC021D286e094a0e878B59F5465'; // ganti sesuai deploy Day 2
 const SIMPLE_STORAGE_ABI = [
   {
     inputs: [],
